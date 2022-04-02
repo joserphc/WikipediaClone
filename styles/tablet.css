@@ -1,0 +1,87 @@
+.header__logo-wikipedia{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 150px;
+}
+main{
+    position: relative;
+}
+.search-form{
+    position: absolute;
+    bottom: 100px;
+}
+
+.search-form__containerInput{
+    width: 380px;
+}
+.lang-container{
+    margin-top: 100px;
+}
+
+.search-form__searchInput{
+    width: 80%;
+}
+
+.links-container{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.links-container__item{
+    width: 156px;
+    height: 45px;
+}
+.links-container__item bdi,
+.links-container__item span{
+    display: inline-block;
+}
+.item-left{
+    position: absolute;
+    left: 0;
+}
+.item-right{
+    position: absolute;
+    right: 0;
+}
+/*left*/
+.item-left:nth-child(1){
+    left: 25%;
+}
+.item-left:nth-child(3){
+    left: 15%;
+    top: 20%;
+}
+.item-left:nth-child(5){
+    left: 15%;
+    top: 40%;
+}
+.item-left:nth-child(7){
+    left: 18%;
+    bottom: 25%;
+}
+.item-left:nth-child(9){
+    left: 25%;
+    bottom: 5%;
+}
+/*right*/
+
+.item-right:nth-child(2){
+    right: 25%;
+}
+.item-right:nth-child(4){
+    right: 15%;
+    top: 20%;
+}
+.item-right:nth-child(6){
+    right: 15%;
+    top: 40%;
+}
+.item-right:nth-child(8){
+    right: 18%;
+    bottom: 25%;
+}
+.item-right:nth-child(10){
+    right: 25%;
+    bottom: 5%;
+}
